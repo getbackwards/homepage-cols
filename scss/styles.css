@@ -1,15 +1,34 @@
+* {
+  box-sizing: border-box; }
+
 html {
   height: 100%; }
 
 body {
   height: 100%;
+  margin: 0;
+  padding: 1rem 0;
   font-family: Arial, sans-serif; }
 
 ul {
   list-style: none;
+  margin-top: 0;
   columns: 3; }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     ul {
       columns: 4; } }
+
+li {
+  white-space: nowrap; }
+
+a {
+  display: inline-block;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 14px;
+  color: #3b71dc;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */
