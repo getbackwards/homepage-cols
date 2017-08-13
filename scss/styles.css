@@ -1,0 +1,15 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  font-family: Arial, sans-serif; }
+
+ul {
+  list-style: none;
+  columns: 3; }
+  @media (min-width: 768px) {
+    ul {
+      columns: 4; } }
+
+/*# sourceMappingURL=styles.css.map */
