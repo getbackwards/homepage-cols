@@ -25,7 +25,8 @@ ul {
 }
 
 li {
-  white-space: nowrap;
+  display: inline-block;
+  //white-space: nowrap;
 }
 
 a {
